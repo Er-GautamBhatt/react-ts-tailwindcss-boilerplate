@@ -1,16 +1,13 @@
 {
-    "name": "er-gautambhatt.github.io",
+    "name": "react-ts-tailwindcss",
     "private": true,
     "version": "1.0.0",
     "type": "module",
-    "homepage": "https://er-gautambhatt.github.io",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
         "lint": "eslint .",
-        "preview": "vite preview",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "preview": "vite preview"
     },
     "dependencies": {
         "@headlessui/react": "^2.2.7",
